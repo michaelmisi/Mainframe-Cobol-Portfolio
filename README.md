@@ -1,25 +1,28 @@
 # Mainframe & COBOL Portfolio
-**Author:** Michael Misi | Senior Backend Engineer transitioning to Mainframe ecosystems.
-
+ 
+**Author:** Michael Misi — Developer with a strong SQL and batch-processing background, building toward mainframe development (COBOL · JCL · DB2).
+ 
 ## About this repository
-This repository demonstrates my self-taught foundation in COBOL and Mainframe concepts. Coming from a strong background in Object-Oriented backend architecture (PHP, Python, C++) and relational databases (SQL), I am highly motivated to bridge the gap between legacy core systems and modern applications.
-
-## Projects included:
-
+ 
+A hands-on demonstration of my COBOL and mainframe foundations. Building on solid experience in batch processing, relational databases (SQL) and backend development, I am developing the skills to maintain, evolve and modernise critical core systems in COBOL — with the analytical rigor these environments demand.
+ 
+## Projects
+ 
 ### 1. Core Banking Batch Processor (`01_core_banking_batch.cbl`)
-A standard sequential batch processing program simulating daily banking operations.
-* **Key concepts demonstrated:**
-  * Strict COBOL division structuring and formatting.
-  * `COMP-3` (Packed-Decimal) arithmetic for financial precision.
-  * Data formatting via editing masks (`Numeric-Edited`).
-  * File handling (`FILE-CONTROL`, `READ`, `EOF` logic).
-
+ 
+A sequential batch program simulating daily core-banking operations. Compiled and run against sample transaction data (`transactions.dat`).
+ 
+- Strict COBOL division structuring and formatting
+- `COMP-3` (packed-decimal) arithmetic for financial precision
+- Numeric-edited output via editing masks
+- File handling (`FILE-CONTROL`, `READ`, end-of-file logic)
 ### 2. Embedded SQL / DB2 Integration (`02_db2_sql_query_mockup.cbl`)
-A demonstration module showcasing how COBOL interacts with relational databases using Embedded SQL.
-* **Key concepts demonstrated:**
-  * `EXEC SQL` syntax and host variable integration.
-  * Error handling using `SQLCODE` and `SQLCA` communication area.
-  * Implementation of `EVALUATE` statements for clean logic branching.
-
-## Why COBOL?
-As an experienced software engineer, I am fascinated by the resilience and processing power of Mainframe architectures. I am actively looking for a consultancy mission where I can apply my algorithmic rigor, my deep knowledge of SQL/Databases, and my readiness to dive into enterprise Java, while maintaining and modernizing critical COBOL systems.
+ 
+A module showing how COBOL interacts with relational databases through embedded SQL.
+ 
+- `EXEC SQL` syntax and host-variable integration
+- Error handling via `SQLCODE` and the `SQLCA` communication area
+- `EVALUATE`-based logic branching
+## Why mainframe
+ 
+The core systems of banking and insurance run on COBOL — and they are not going away. They need developers who can keep them reliable and evolve them safely. I am committed to building my career in this field: applying my analytical rigor and my SQL/database foundation to maintain and modernise critical COBOL systems, and growing into the wider mainframe stack (DB2, JCL, IMS).
