@@ -1,0 +1,38 @@
+# ── Compiled executables (GnuCOBOL `cobc -x` output) ──
+# Build artifacts — should not be committed.
+core_banking_batch
+*.exe
+
+# ── GnuCOBOL intermediate / generated files ──
+*.o
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.c
+*.c.h
+*.c.l.h
+*.i
+*.i.l.h
+*.int
+*.gcd
+*.lst
+
+# ── Logs ──
+*.log
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editors / IDEs ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Note: source (*.cbl) and the sample input (transactions.dat) stay tracked.
